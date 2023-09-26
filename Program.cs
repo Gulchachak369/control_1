@@ -6,7 +6,7 @@ string[] output = {};
  
 for (int i = 0; i < input.Length; i++) { 
     string s = input[i]; 
-    if (s.Length <= 2) { 
+    if (s.Length <= 3) { 
         output = output.Append(s).ToArray(); 
     } 
 } 
